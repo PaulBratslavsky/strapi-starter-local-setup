@@ -15,6 +15,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'images.pexels.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'https://leading-friends-510da24050.strapiapp.com',
       }
     ],
   },
