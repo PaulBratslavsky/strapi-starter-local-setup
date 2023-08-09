@@ -5,10 +5,23 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: [
-      "localhost", 
-      "images.pexels.com", 
-      // "leading-friends-510da24050.media.strapiapp.com"
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "localhost",
+        port: "1337",
+        pathname: "/uploads/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
+      {
+        protocol: "https",
+        hostname: "https://leading-friends-510da24050.media.strapiapp.com",
+        port: "1337",
+        pathname: "/**",
+      },
     ],
   },
 };
