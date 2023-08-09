@@ -16,13 +16,9 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.pexels.com",
       },
-      {
-        protocol: "https",
-        hostname: "https://leading-friends-510da24050.media.strapiapp.com",
-        port: "1337",
-        pathname: "/**",
-      },
     ],
+      domains: ['"https://leading-friends-510da24050.media.strapiapp.com"'],
+    
   },
 };
 
