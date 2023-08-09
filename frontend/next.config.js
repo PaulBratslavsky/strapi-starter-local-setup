@@ -5,7 +5,11 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["localhost", "images.pexels.com", "leading-friends-510da24050.media.strapiapp.com"],
+    domains: [
+      "localhost", 
+      "images.pexels.com", 
+      // "leading-friends-510da24050.media.strapiapp.com"
+    ],
   },
 };
 
