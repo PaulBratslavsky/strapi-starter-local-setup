@@ -7,22 +7,21 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'localhost',
-        port: '1337',
-        pathname: '/uploads/**',
+        protocol: "http",
+        hostname: "localhost",
+        port: "1337",
+        pathname: "/uploads/**",
       },
       {
-        protocol: 'https',
-        hostname: 'images.pexels.com',
+        protocol: "https",
+        hostname: "images.pexels.com",
       },
       {
-        protocol: 'https',
-        hostname: 'https://leading-friends-510da24050.strapiapp.com',
-        pathname: '/uploads/**',
-      }
+        protocol: "https",
+        hostname: "https://leading-friends-510da24050.media.strapiapp.com",
+      },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
