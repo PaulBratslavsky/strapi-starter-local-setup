@@ -17,8 +17,7 @@ const nextConfig = {
         hostname: "images.pexels.com",
       },
     ],
-      domains: ['"https://leading-friends-510da24050.media.strapiapp.com"'],
-    
+    domains: ["ends-510da24050.media.strapiapp.com"],
   },
 };
 
