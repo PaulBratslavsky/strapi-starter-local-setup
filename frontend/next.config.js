@@ -8,7 +8,7 @@ const nextConfig = {
     domains: [
       "localhost",
       "images.pexels.com",
-      "https://leading-friends-510da24050.media.strapiapp.com"
+      "leading-friends-510da24050.media.strapiapp.com"
     ],
   },
 };
