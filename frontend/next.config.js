@@ -1,16 +1,24 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   images: {
-    domains: [
-      "localhost",
-      "images.pexels.com",
-      "leading-friends-510da24050.media.strapiapp.com"
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+        port: '1337',
+        pathname: '/uploads/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'exciting-gift-8e69796398.media.strapiapp.com',
+      },
     ],
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
